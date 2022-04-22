@@ -1,0 +1,121 @@
+body{
+    background-color: #fff;
+    color: #4d4d4d;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: normal;
+    display: block;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: #ececec;
+    color: #4d4d4d;
+    font-size: 18px;
+}
+.navbar-brand img{
+    width: 92px;
+    height: 70px;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #808080;
+}
+.banner img{
+    
+    width:100%;
+    height:auto;
+    text-align: center;
+    color:white;
+    padding:0px;
+    margin: 0%;
+}
+@media only screen and (min-width:992px){
+    .navbar .navbar-nav .nav-item .nav-link{
+        padding: 0.05em;
+    }
+    .navbar .navbar-nav .nav-item:not(:last-child) .nav-link{
+        border-right: 1px solid #4d4d4d;
+        height: 22px;
+    }
+}
+.banner{
+    
+    text-align: center;
+    font-size: 48px;
+   
+    font-weight: semibold;
+    position: relative;
+    
+
+
+}
+
+.text{
+     position: absolute;
+     color: #fff;
+     top: 35%;
+     left: 35%;
+     transform: translate(-50, -50%);
+ }
+ #bt {
+    color:#d52037;
+    font-size:24z           px;
+    font-weight:600;
+    border: radius 12px;
+ }
+section .container .row .content{
+    padding: 40px;
+}
+.col-12{
+    padding: 15px;
+    color: #d52037;
+    font-size: 36px;
+    font-weight: 600;
+    
+}
+form{
+    padding: 12px;
+    text-align: left;
+}
+form input[type]{
+    background: color #e4e4e4;
+}
+iframe{
+    padding: 0px;
+    border-radius: 12px
+     
+    
+    
+}
+footer{
+    background-color:#ececec;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+form input[submit]{
+    font-size: 18px;
+    font-weight: regular;
+}
+ #mn{
+      text-decoration: underline solid black 3px;
+      text-underline-offset: 10px;
+ }
+ .modal-header{
+     background-color: #db1e36;
+     color:#e4e4e4;
+ }
+ #nn{
+     background-color: #ececec;
+     color: #d52037;
+     outline: none;
+     background: none;
+     text-decoration: underline;
+      text-underline-offset: 10px;
+ 
+ }
+
+ 
+
+
+
+
